@@ -3,6 +3,30 @@ body{
     font-family: 'Roboto',
     sans-serif;
 }
+
+.header{
+    margin-left: 80px;
+    margin-right: 80px;
+}
 .section_first{
     display: flex;
+
+}
+.div_first{
+    width: 50%;
+}
+.div_header_img{
+    display: 100%;
+    margin-top: 80px;
+    height: 100%;
+}
+.span{
+    color: rgba(236, 119, 72);
+}
+.banner{
+    font-size: 3.3rem;
+    margin-top: 300px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(94, 90, 90);
+    
 }

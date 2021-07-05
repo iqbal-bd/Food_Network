@@ -19,6 +19,7 @@ body{
     display: 100%;
     margin-top: 80px;
     height: 100%;
+    position: relative;
 }
 .span{
     color: rgba(236, 119, 72);
@@ -29,4 +30,23 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(94, 90, 90);
     
+}
+.text{
+    color: rgba(59, 55, 55, 0.7);
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+.link_button{
+    border:none;
+    text-decoration: none;
+    background-color:tomato;
+    border-radius: 30px;
+    padding: 20px 40px 20px 40px;
+    color: white;
+}
+.link_button:hover{
+    background-color: rgb(233, 129, 111);
+    color: black;
+    transition-delay: 0s background-color;
+    transition-delay: ;
 }

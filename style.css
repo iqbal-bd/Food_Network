@@ -1,18 +1,19 @@
+/* google font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     font-family: 'Roboto',
     sans-serif;
 }
-
+/* header style start */
 .header{
     margin-left: 80px;
     margin-right: 80px;
 }
-.section_first{
+.section_header{
     display: flex;
 
 }
-.div_first{
+.div_header{
     width: 50%;
 }
 .div_header_img{
@@ -47,6 +48,5 @@ body{
 .link_button:hover{
     background-color: rgb(233, 129, 111);
     color: black;
-    transition-delay: 0s background-color;
-    transition-delay: ;
 }
+/* header style end */

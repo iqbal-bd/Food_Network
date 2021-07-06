@@ -8,7 +8,7 @@
     }
 
     /* header style start */
-    .header {
+    #header {
         margin-left: 80px;
         margin-right: 80px;
     }
@@ -67,7 +67,7 @@
 
 
     /* about section */
-    .about {
+    #about {
         display: flex;
         background-image: url(./images/Frame\ .jpg);
     }
@@ -97,7 +97,7 @@
 
     /* recipies section */
 
-    .recipies_section {
+    #recipies_section {
         display: flex;
         flex-direction: row;
 
@@ -154,7 +154,7 @@
 
 /* follower section */
 
-.follower{
+#follower{
     display: flex;
     flex-direction: row;
     font-size: 2rem;
@@ -189,7 +189,7 @@
 }
 .footer{
     color: white;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 
 }
 

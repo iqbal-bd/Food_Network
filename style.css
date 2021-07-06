@@ -50,3 +50,27 @@ body{
     color: black;
 }
 /* header style end */
+
+
+
+/* about section */
+.about{
+    display: flex;
+    background-image: url(./images/Frame\ .jpg);
+}
+
+.about_img{
+    width: 50%;
+    display: inline block;
+    margin-top: 100px;
+}
+.about_me{
+    margin-top: 200px;
+    text-align: justify;
+    width: 50%;
+}
+.text_me{
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+/* end about section */

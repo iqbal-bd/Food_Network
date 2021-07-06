@@ -194,3 +194,19 @@
 }
 
 /* follower section end */
+
+/* nav var  */
+.ul{
+    display: flex;
+    flex-direction: row;
+    border:none;
+    background-image: linear-gradient(white,wheat);
+    padding: 10px 10px 10px 10px;
+    box-shadow:10px 10px 10px 1px wheat;
+
+}
+.li{
+    width: 25%;
+    margin-left: 50px;
+}
+/* nav var end */

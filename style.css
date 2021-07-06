@@ -153,4 +153,33 @@
 
 
 /* follower section */
+
+.follower{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    margin-top: 150px;
+    box-shadow: 10px 10px 10px 10px rgb(141, 138, 138);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 30px;
+    padding-left: 200px;
+    line-height: 10px;
+
+
+}
+.like{
+    width: 40%;
+    margin-top: 50px;
+    
+}
+
+.a_link{
+    text-decoration: none;
+    color: black;
+}
+.follower_text{
+    margin: 0%;
+}
+
 /* follower section end */

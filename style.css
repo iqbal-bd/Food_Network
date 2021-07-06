@@ -181,5 +181,16 @@
 .follower_text{
     margin: 0%;
 }
+#footer{
+    border: 1px solid rgb(36, 32, 32);
+    margin-top: 100px;
+    background-color: rgb(20, 21, 27);
+    text-align: center;
+}
+.footer{
+    color: white;
+    margin-bottom: 200px;
+
+}
 
 /* follower section end */

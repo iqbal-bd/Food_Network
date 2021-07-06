@@ -1,101 +1,3 @@
-/* google font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body{
-    font-family: 'Roboto',
-    sans-serif;
-}
-/* header style start */
-.header{
-    margin-left: 80px;
-    margin-right: 80px;
-}
-.section_header{
-    display: flex;
-
-}
-.div_header{
-    width: 50%;
-}
-.div_header_img{
-    display: 100%;
-    margin-top: 80px;
-    height: 100%;
-    position: relative;
-}
-.span{
-    color: rgba(236, 119, 72);
-}
-.banner{
-    font-size: 3.3rem;
-    margin-top: 300px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(94, 90, 90);
-    
-}
-.text{
-    color: rgba(59, 55, 55, 0.7);
-    font-size: 1.2rem;
-    margin-bottom: 50px;
-}
-.link_button{
-    border:none;
-    text-decoration: none;
-    background-color:tomato;
-    border-radius: 30px;
-    padding: 20px 40px 20px 40px;
-    color: white;
-}
-.link_button:hover{
-    background-color: rgb(233, 129, 111);
-    color: black;
-}
-/* header style end */
-
-
-
-/* about section */
-.about{
-    display: flex;
-    background-image: url(./images/Frame\ .jpg);
-}
-
-.about_img{
-    margin-top: 100px;
-}
-.about_me{
-    margin-top: 200px;
-    margin-left: 250px;
-    text-align: auto;
-}
-.text_me{
-    margin-right: 200px;
-    margin-bottom: 100px;
-}
-/* end about section */
-
-
-/* recipies section */
-
-    .recipies_section{
-        display: flex;
-        flex-direction: row;
-        
-    }
-    
-    .recipies_img{
-        width: 90%;
-        height: 250px;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 10px;
-        border-radius: 30px;
-    }
-    .recipies{
-        border:10px solid #D3D3D3;
-        border-radius: 30px;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
 
     /* google font */
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -148,14 +50,15 @@ body{
     .link_button {
         border: none;
         text-decoration: none;
-        background-color: tomato;
+        background-image: linear-gradient(yellow,tomato);
         border-radius: 30px;
         padding: 20px 40px 20px 40px;
         color: white;
     }
 
     .link_button:hover {
-        background-color: rgb(233, 129, 111);
+        background-image: linear-gradient(tomato,yellow
+        );
         color: black;
     }
 
@@ -182,6 +85,11 @@ body{
     .text_me {
         margin-right: 200px;
         margin-bottom: 100px;
+    }
+    .text_title{
+        color: rgb(94, 89, 89);
+        font-family: monospace;
+        font-size: 2.5rem;
     }
 
     /* end about section */
@@ -210,6 +118,14 @@ body{
         margin-left: 30px;
         margin-right: 30px;
         background: linear-gradient(gray, white);
+    }
+    .heading_recipies{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .recipies_para{
+        margin-left: 300px;
+        margin-right:300px;
     }
 
     .recipies_text {
